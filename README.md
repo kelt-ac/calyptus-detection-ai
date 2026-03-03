@@ -12,7 +12,7 @@ Images → Annotation → Augmentation → Entraînement → Évaluation → Dé
 
 ## 🚀 Installation
 ```bash
-git clone https://github.com/votre_username/calyptus-detection-ai.git
+git clone https://github.com/kelt-ac/calyptus-detection-ai.git
 cd calyptus-detection-ai
 pip install -r requirements.txt
 ```
