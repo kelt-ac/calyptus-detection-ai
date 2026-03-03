@@ -1,3 +1,33 @@
+# ── Données & Modèles (trop lourds pour GitHub) ──
+dataset_final/
+datasets/
+runs/
+*.pt
+*.onnx
+*.engine
+*.weights
+
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# ── Jupyter ───────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Outputs temporaires ───────────────────────────
+*.jpg
+*.png
+*.csv
+!docs/screenshots/*.png   ← garder les screenshots de docs
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
