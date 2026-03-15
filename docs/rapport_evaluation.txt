@@ -1,0 +1,26 @@
+
+╔══════════════════════════════════════════════════╗
+║     RAPPORT EVALUATION - DETECTION CALYPTUS      ║
+╠══════════════════════════════════════════════════╣
+║  Modele      : YOLOv8s                           ║
+║  Dataset     : 2507 images originales            ║
+║  Augmentation: x4 -> 7850 images train           ║
+╠══════════════════════════════════════════════════╣
+║  METRIQUES SUR SET DE VALIDATION                 ║
+║  ─────────────────────────────────────────────  ║
+║  Precision     : 85.7%                           ║
+║  Recall        : 88.7%                           ║
+║  F1-Score      : 87.2%                           ║
+║  mAP50         : 91.1%                           ║
+║  mAP50-95      : 71.3%                           ║
+╠══════════════════════════════════════════════════╣
+║  INTERPRETATION                                  ║
+║  Precision 85.7% -> peu de faux positifs     ✅  ║
+║  Recall    88.7% -> peu de calyptus rates    ✅  ║
+║  mAP50     91.1% -> detection tres precise   ✅  ║
+╠══════════════════════════════════════════════════╣
+║  VITESSE                                         ║
+║  Preprocessing : 1.4ms                           ║
+║  Inference     : 8.5ms                           ║
+║  Total/image   : ~10ms  (100 img/sec)        ✅  ║
+╚══════════════════════════════════════════════════╝

@@ -1,0 +1,9 @@
+# Dataset Calyptus - Configuration YOLOv8
+path: ./dataset_final
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names:
+  - calyptus
